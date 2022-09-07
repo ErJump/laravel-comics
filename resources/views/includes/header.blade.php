@@ -1,10 +1,10 @@
 <header>
     <nav class="navbar navbar-expand-lg bg-white">
         <div class="container-lg d-flex ">
-            <img class="" src="/images/dc-logo.png" alt="logo">
+            <a href="/"><img class="" src="/images/dc-logo.png" alt="logo"></a>
             <div class=" justify-content-end" id="navbarNavAltMarkup">
                 <div class="navbar-nav justify-self-end">
-                    <a class="nav-link active px-3" href="#">Characters</a>
+                    <a class="nav-link active px-3" href="/characters">Characters</a>
                     <a class="nav-link active px-3" href="#">Comics</a>
                     <a class="nav-link active px-3" href="#">Movies</a>
                     <a class="nav-link active px-3" href="#">TV</a>

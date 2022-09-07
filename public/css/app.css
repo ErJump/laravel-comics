@@ -10956,3 +10956,61 @@ main .my_button:hover {
   cursor: pointer;
 }
 
+footer .bg-main {
+  background-image: url(/images/footer-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  max-height: 500px;
+  z-index: -1;
+  overflow-y: hidden;
+}
+
+footer .bg-sec {
+  background-color: #303030;
+  z-index: 1;
+}
+
+footer .footer-li {
+  padding-left: 0px;
+  margin-left: 0px;
+}
+
+footer ul {
+  list-style: none;
+  padding-left: 0px;
+}
+
+footer ul li {
+  padding: 5px 0;
+}
+
+footer .bg-logo {
+  overflow-y: hidden;
+  height: 100%;
+}
+
+footer .bg-logo img {
+  height: 600px;
+  transform: translateY(-50px);
+}
+
+footer a {
+  color: lightgrey;
+  text-decoration: none;
+}
+
+footer .my_button {
+  color: white;
+  border: 2px solid #0c7cec;
+  padding: 10px;
+}
+
+footer .my_button:hover {
+  cursor: pointer;
+}
+
+footer .my_cta {
+  color: #0c7cec;
+}
+

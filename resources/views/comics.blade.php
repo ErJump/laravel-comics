@@ -22,10 +22,26 @@
             <div class="bg-sec py-5">
             <div class="container-lg">
                 <div class="row justify-content-around">
-                    {{-- <div v-for="(element, index) in productsList" :key="index" class="col-2 d-flex justify-content-center align-items-center">
-                        <img  class="w-25" :src="`/img/${element.img}`" :alt="element.name">
-                        <h5 class="text-uppercase text-white ms-2 fs-6">{{element.name}}</h5>
-                    </div> --}}
+                    <div class="col-2 d-flex justify-content-center align-items-center">
+                        <img  class="w-25" src="images/buy-comics-digital-comics.png" alt="digital">
+                        <h5 class="text-uppercase text-white ms-2 fs-6">Digital Comics</h5>
+                    </div>
+                    <div class="col-2 d-flex justify-content-center align-items-center">
+                        <img  class="w-25" src="images/buy-comics-merchandise.png" alt="merch">
+                        <h5 class="text-uppercase text-white ms-2 fs-6">DC Merchandise</h5>
+                    </div>
+                    <div class="col-2 d-flex justify-content-center align-items-center">
+                        <img  class="w-25" src="images/buy-comics-subscriptions.png" alt="subscriptions">
+                        <h5 class="text-uppercase text-white ms-2 fs-6">Subscriptions</h5>
+                    </div>
+                    <div class="col-2 d-flex justify-content-center align-items-center">
+                        <img  class="w-25" src="images/buy-comics-shop-locator.png" alt="Comic Shop Locator">
+                        <h5 class="text-uppercase text-white ms-2 fs-6">Comic Shop Locator</h5>
+                    </div>
+                    <div class="col-2 d-flex justify-content-center align-items-center">
+                        <img  class="w-25" src="images/buy-dc-power-visa.svg" alt="DC Power Visa">
+                        <h5 class="text-uppercase text-white ms-2 fs-6">DC Power Visa</h5>
+                    </div>
                 </div>
             </div>
         </div>

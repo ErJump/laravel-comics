@@ -61,3 +61,53 @@ main{
         }
     }
 }
+
+footer{
+    .bg-main{
+        background-image: url(/images/footer-bg.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        max-height: 500px;
+        z-index: -1;
+        overflow-y: hidden;
+    }
+    .bg-sec{
+        background-color: $bgFooter;
+        z-index: 1;
+    }
+    .footer-li{
+        padding-left: 0px;
+        margin-left: 0px;
+    }
+    ul{
+        list-style: none;
+        padding-left: 0px; 
+        li{
+            padding: 5px 0;
+        }
+    }
+    .bg-logo{
+        overflow-y: hidden;
+        height: 100%;
+        img{
+            height: 600px;
+            transform: translateY(-50px);
+        }
+    }
+    a{
+        color: lightgrey;
+        text-decoration: none;
+    }
+    .my_button{
+        color: white;
+        border: 2px solid $brandColor;
+        padding: 10px;
+        &:hover{
+            cursor: pointer;
+        }
+    }
+    .my_cta{
+        color: $brandColor;
+    }
+}

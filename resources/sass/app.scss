@@ -1,2 +1,22 @@
 @import "partials/variables.scss";
 @import "~bootstrap/dist/css/bootstrap.css";
+
+header{
+    .container-lg>img{
+        width: 85px;
+    }
+    .navbar{
+        padding-bottom: 0px;
+        padding-top: 0px;
+    }
+    .navbar-nav>a{
+        color: $fontColor;
+        line-height: 100px;
+        text-transform: uppercase;
+        font-size: 0.8rem;
+        &:hover{
+            border-bottom: 5px solid $brandColor;
+            color: $brandColor; 
+        }
+    }
+}

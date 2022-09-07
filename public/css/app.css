@@ -10889,5 +10889,24 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important;
   }
+}header .container-lg > img {
+  width: 85px;
+}
+
+header .navbar {
+  padding-bottom: 0px;
+  padding-top: 0px;
+}
+
+header .navbar-nav > a {
+  color: #1c1c1c;
+  line-height: 100px;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+}
+
+header .navbar-nav > a:hover {
+  border-bottom: 5px solid #0c7cec;
+  color: #0c7cec;
 }
 

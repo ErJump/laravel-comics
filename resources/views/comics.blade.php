@@ -10,7 +10,14 @@
                 Current series
                 </div>
                 <div class="row mt-4">
-                
+                    @forelse ($comics as $comic)
+                        <div class="col-2 comic-card mb-4">
+                            <img class="img-fluid mb-3" src="{{$comic->image}}" alt="{{$comic->title}}">
+                            <h6 class="text-uppercase text-white">{{$comic->title}}</h6>
+                        </div>
+                    @empty
+                        {{'Non ci sono fumetti disponibili'}}
+                    @endforelse 
                 </div>
                 <div class="d-flex justify-content-center">
                     <div class="text-uppercase text-white my_button">

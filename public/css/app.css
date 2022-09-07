@@ -10956,6 +10956,15 @@ main .my_button:hover {
   cursor: pointer;
 }
 
+main .comic-card img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 200px;
+  width: 100%;
+  -o-object-position: top;
+     object-position: top;
+}
+
 footer .bg-main {
   background-image: url(/images/footer-bg.jpg);
   background-size: cover;

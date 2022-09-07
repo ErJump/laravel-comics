@@ -10910,3 +10910,12 @@ header .navbar-nav > a:hover {
   color: #0c7cec;
 }
 
+.jumbotron {
+  width: 100%;
+  background-image: url(/images/jumbotron.jpg);
+  height: 500px;
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+

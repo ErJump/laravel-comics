@@ -29,3 +29,35 @@ header{
     background-position: top;
     background-repeat: no-repeat;
 }
+
+main{
+    .bg-main{
+        background-color: $fontColor;
+    }
+    .bg-sec{
+        background-color: $brandColor;
+    }
+    .my_title{
+        font-weight: bold;
+        font-size: 2rem;
+        text-align: center;
+        padding: 10px;
+        top: -28px;
+        left: 0;
+        background-color: $brandColor;
+    }
+    .comic-card img{
+        object-fit: cover;
+        height: 200px;
+        width: 100%;
+        object-position: top;
+    }
+    .my_button{
+        background-color: $brandColor;
+        padding: 10px 50px ; 
+        align-self: center;
+        &:hover{
+            cursor: pointer;
+        }
+    }
+}

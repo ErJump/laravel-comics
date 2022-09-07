@@ -10919,3 +10919,40 @@ header .navbar-nav > a:hover {
   background-repeat: no-repeat;
 }
 
+main .bg-main {
+  background-color: #1c1c1c;
+}
+
+main .bg-sec {
+  background-color: #0c7cec;
+}
+
+main .my_title {
+  font-weight: bold;
+  font-size: 2rem;
+  text-align: center;
+  padding: 10px;
+  top: -28px;
+  left: 0;
+  background-color: #0c7cec;
+}
+
+main .comic-card img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 200px;
+  width: 100%;
+  -o-object-position: top;
+     object-position: top;
+}
+
+main .my_button {
+  background-color: #0c7cec;
+  padding: 10px 50px;
+  align-self: center;
+}
+
+main .my_button:hover {
+  cursor: pointer;
+}
+
